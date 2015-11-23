@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-gtm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The default blueprint for ember-cli addons.",
   "website": "https://github.com/sas1ni69/ember-cli-gtm",
   "directories": {
