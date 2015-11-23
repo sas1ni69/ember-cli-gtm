@@ -1,25 +1,23 @@
 # Ember-cli-gtm
 
-This README outlines the details of collaborating on this Ember addon.
+Easily add Google Tag Manager to your app.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```bash
+# From within your ember-cli project
+npm install ember-cli-gtm
+```
 
-## Running
+## Usage
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+First you'll need to configure your GTM App ID:
 
-## Running Tests
+```javascript
+// config/environment.js
 
-* `ember test`
-* `ember test --server`
+ENV['ember-cli-gtm'] = {
+  appId: '[YOUR_APP_ID]'
+};
+```
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
