@@ -17,7 +17,8 @@ First you'll need to configure your GTM App ID:
 // config/environment.js
 
 ENV['ember-cli-gtm'] = {
-  appId: '[YOUR_APP_ID]'
+  appId: '[YOUR_APP_ID]',
+  enabled: true
 };
 ```
 
