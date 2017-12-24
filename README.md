@@ -20,4 +20,3 @@ ENV['ember-cli-gtm'] = {
   appId: '[YOUR_APP_ID]'
 };
 ```
-
